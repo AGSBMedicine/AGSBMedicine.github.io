@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background-color: #f6f8f2 !important;
+}
+.title {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.813vw;
+  line-height: 87px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+margin: 3rem;
+  color: #2D2929;
+}
+
+.card-link {
+  font-family: Sen !important;
+  text-decoration: none!important;
+}
+
+.card-title {
+  font-family: Sen !important;
+}
+
+.card {
+  background-color: #dadada;
+  color: #2d2929;
+  border: none !important;
+  margin: 1rem;
+}
+
+.card-body {
+  border: 0;
+  background-color: #dadada;
+}
+@media screen and (max-width: 1200px){
+  .title {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6.813vw;
+  line-height: 87px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+margin: 1rem;
+  color: #2D2929;
+}
+}
