@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  background-color: #f6f8f2 !important;
+  overflow-x: hidden;
+}
+
+.menu {
+  visibility: hidden;
+}
+
+#close {
+  visibility: hidden;
+  display: none;
+}
+
+.nav {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}
+
+#sidebar {
+  width: 14.766vw;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  background-color: #CED9B9;
+}
+a {
+  text-decoration: none;
+  font-family: Sen;
+  font-style: normal;
+  font-weight: normal;
+    margin-left: 1vw;
+  color: #2D292950;
+
+}
+.navLinks {
+  text-decoration: none !important;
+  font-size: 1.3vw;
+  font-style: normal;
+  font-weight: normal;
+    color: #2D292950;
+
+
+}
+/* 
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+
+.text {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.047vw;
+  line-height: 1.672vw;
+  margin-left: 1vw;
+    color: #2D2929;
+
+}
+
+#container {
+  padding-left: 14.766vw;
+}
+
+.title {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.875vw;
+  line-height: 1.898vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #2D2929;
+  margin-left: 1.875vw;
+}
+
+.blogPic {
+    width: 100%;
+  float: right;
+}
+
+.blogPicContainer {
+    max-width: 50%;
+    right: 10px;
+    top: 10px;
+  float: right;
+}
+
+/* ---------- */
+
+@media screen and (max-width: 1200px){
+  .nav {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}
+
+  
+  .menu {
+  visibility: visible;
+    font-size: 7vw;
+}
+
+  .title {
+    font-size: 5.875vw;
+    line-height: 7vw;
+  }
+  #sidebar {
+  width: 70vw;
+  bottom: 0;
+  top: 0;
+  background-color: #CED9B9;
+    transition: 0.7s;
+    margin-left: -70vw;
+}
+  #container {
+  padding-left: 0;
+}
+  .text {
+  font-family: Sen;
+  font-style: normal;
+      color: #2D2929;
+
+  font-weight: normal;
+  font-size: 4.27vw;
+  line-height: 5.172vw;
+  margin: 3vw;
+}
+a {
+  text-decoration: none;
+  font-family: Sen;
+    color: #2D292950;
+
+  font-style: normal;
+  font-weight: normal;
+    margin-left: 1vw;
+
+}
+.navLinks {
+  text-decoration: none !important;
+  font-size: 4.3vw;
+  font-style: normal;
+    color: #2D292950;
+  font-weight: normal;
+    margin-left: 1vw;
+
+}
+  
+  #close {
+    visibility: visible;
+    display:block;
+  }
+  .blogPic {
+    width: 100vw !important;
+    right: 0%;
+    left: 0%;
+    float: none;
+}
+
+.blogPicContainer {
+  float: none;
+    width: 100vw !important;
+}
+
+}
+
