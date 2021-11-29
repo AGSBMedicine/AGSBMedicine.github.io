@@ -1,0 +1,116 @@
+<html>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta charset="UTF-8" />
+      <title>AGSB Med Soc</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="template.css" />
+
+    </head>
+
+    <body onresize=checknav()>
+      
+      
+      <div id="sidebar">
+        <div class="nav">
+          <p class="navs" id="close"><span
+              class="navs"
+                                           style="font-size: 7vw";
+              onclick="document.getElementById('sidebar').style.marginLeft = '-70vw';"
+              >&times;</span
+            ></p>
+
+          <a class="navs" href="agsbmedicine.github.io"><p class="navLinks">Home</p></a>
+          <br />
+          <a class="navs" href="agsbmedicine.github.io"
+            ><p style="color: #2D2929" class="navLinks">Blog</p></a
+          >
+          <br />
+          <a class="navs" href="#"><p class="navLinks">Twitter</p></a>
+        </div>
+      </div>
+      
+      
+      <div id="container">
+        <div style="background-color: #598ea6; padding: 1rem">
+          <p class="title">
+            Davyhumle Clinic
+            <span
+              class="menu"
+              onclick=openNav()
+              style="margin-left: 8vw; font-size:7vw;cursor:pointer"
+              >☰</span
+            >
+            
+          </p>
+        </div>
+
+
+        <div class="text">
+          <p>
+            Hello and welcome to the first issue of the Med-Soc newsletter. Over the past few weeks, AGSB Year 12 volunteers have partnered with the DavyHulme Medical Centre to aid the distribution of COVID-19 Pfizer booster vaccinations to members of the public who are over the age of 65 and to those who are in the high-risk, vulnerable category, in terms of their health. During this time, many of our volunteers have acquired new clinical skills and experiences from the various rotations they have participated in, whilst volunteering. This article aims to provide a brief and balanced viewpoint about volunteering at a vaccine clinic and is a summary of all the reflective narratives received from the various volunteers. 
+          </p>
+
+          <h2> DavyHulme Medical Centre – 3086 </h2>
+
+          <p>
+            DavyHulme medical centre is a public GP clinic located in Urmston, Manchester and currently offers Pfizer vaccinations for patients over the age of 16, as well as booster jabs for vulnerable categories. Our responsibility as a volunteer was to offer administrative support by updating patient records, direct vaccinated patients to recovery rooms, manage the clinic car park and to aid the dedicated reception team in their extremely busy role. Each rotation offered a range of transferrable skills, which is addressed below.
+          </p>
+          <p>
+            Patient contact: when carrying out the required administrative work, we had the opportunity to speak directly to patients, from asking them questions to confirm their identity to taking note of their previous medical history. Such interactions not only help to develop our communication skills within a clinical setting but also to appreciate and gain an understanding of the patient’s experience with regards to their personal health. I personally found this to be quite humbling in comparison to my own experiences. 
+          </p>
+          <p>
+            Acknowledgment of the roles of a multidisciplinary team: when focussing on medicine, the roles and contributions of other healthcare professionals are often overlooked. However, at the Davyhulme medical centre, the collective and collaborative efforts of nurses, receptionists and GPs in delivering the rollout of the vaccine was on full display. In addition to this, from a reflective perspective, it was encouraging to see that the GPs acknowledged and were appreciate of everyone’s efforts in the team, including those of us, the volunteers. This showcases the importance of gratitude in any profession.
+          </p>
+
+          <p>
+            Although personally we did not identify any drawbacks, it was acknowledged that it can be physically taxing to stand in a car park in the cold, for hours at end, offering hand sanitizer to patients and staff entering the clinic.  However a comforting perspective can be gained from the most tedious of tasks, such as honing your coordination skills obtained from organising socially distanced queues for patients.
+          </p>
+
+          <p>
+            Summary of experiences from Yamann Sawan – <br>
+<i>Boring, slow and repetitive. These are the first 3 thoughts that came to my mind when the email was sent out to our year asking for volunteers at the Davyhulme clinic, but after completing a 2 week placement I don’t think I could’ve been more wrong. Each patient that stepped through that front door had their own unique story to tell and an abundance of information to give while trusting you to take care of them, with of course the supervision of a qualified nurse. We were given a tour of the process behind treating each patient, from the frontline care giving with face-to-face interactions to even the behind the scenes with the creation of vaccines. This was an opportunity I hope we see again and would encourage any aspiring medic to follow up on. <i>
+
+          </p>
+
+
+          <br />
+        </div>
+      </div>
+
+
+
+      <script type="text/javascript">
+        function close() {
+          document.getElementById("sidebar").style.marginLeft = "-70vw";
+        }
+
+        function openNav() {
+          document.getElementById("sidebar").style.marginLeft = "0";
+          
+        }
+        function checknav() {
+          setTimeout(checkNav(), 1000);
+          
+        }
+        
+        function checkNav() {
+          if (window.innerWidth > 1200) {
+            openNav();
+          } else {
+            close();
+          }
+        }
+
+        
+      </script>
+     </body>
+  </html>
+</html>
